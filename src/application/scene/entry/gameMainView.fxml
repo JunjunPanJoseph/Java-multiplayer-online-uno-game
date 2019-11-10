@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handleKeyPress" prefHeight="720" prefWidth="1280" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Label layoutX="285.0" layoutY="96.0" text="UNO" />
+    <Button id="game" fx:id="gameStartLocal" layoutX="271.0" layoutY="257.0" mnemonicParsing="false" onAction="#handleGameStartLocal" text="local game" />
+    <Button fx:id="gameStartOnline" layoutX="271.0" layoutY="287.0" mnemonicParsing="false" onAction="#handleGameStartOnline" text="online game" />
+    <Button fx:id="setting" layoutX="271.0" layoutY="318.0" mnemonicParsing="false" onAction="#handleSetting" text="setting" />
+    <Button fx:id="exit" layoutX="271.0" layoutY="347.0" mnemonicParsing="false" onAction="#handleExit" text="exit" />
+  </children>
+</AnchorPane>
